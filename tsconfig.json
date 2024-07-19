@@ -1,12 +1,16 @@
 ﻿{
     "compilerOptions": {
-       "outDir": "src/*",
+       "outDir": "./dist/",
        "noImplicitAny": true,
        "sourceMap": true,
        "module": "ESNext",
        "target": "es5",
        "jsx": "react-jsx",
        "allowJs": true,
+       "baseUrl": ".",
+       "paths": {
+        "*": ["src/*"]
+      },
        "moduleResolution": "node",
        "allowSyntheticDefaultImports": true,
        "esModuleInterop": true
