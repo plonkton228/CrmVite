@@ -1,0 +1,14 @@
+﻿{
+    "compilerOptions": {
+       "outDir": "src/*",
+       "noImplicitAny": true,
+       "sourceMap": true,
+       "module": "ESNext",
+       "target": "es5",
+       "jsx": "react-jsx",
+       "allowJs": true,
+       "moduleResolution": "node",
+       "allowSyntheticDefaultImports": true,
+       "esModuleInterop": true
+    }
+}
