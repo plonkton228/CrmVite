@@ -17,7 +17,9 @@
     "@rollup/plugin-alias": "^5.1.0",
     "@types/node": "^20.14.10",
     "@types/react-dom": "^18.3.0",
+    "@types/react-router-dom": "^5.3.3",
     "@vitejs/plugin-react": "^4.3.1",
+    "sass": "^1.77.8",
     "typescript": "^5.5.3",
     "vite": "^5.3.3",
     "vite-plugin-chunk-split": "^0.5.0",
@@ -26,6 +28,7 @@
   },
   "dependencies": {
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.25.1"
   }
 }
