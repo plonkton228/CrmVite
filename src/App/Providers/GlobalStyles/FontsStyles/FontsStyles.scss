@@ -1,0 +1,14 @@
+﻿// Шрифт нормального размера
+$font-size-n: 12px;
+$font-height-n: 4px;
+$font-family-n: "Mulish";
+$font-n: calc($font-size-n/$font-height-n)  $font-family-n;
+
+
+// Шрифт огромного размера
+$font-size-l: 24px;
+$font-height-l: 4px;
+$font-family-l: "Roboto";
+$font-l: calc($font-size-l/$font-height-l)  $font-family-l;
+
+

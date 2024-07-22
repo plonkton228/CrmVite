@@ -1,15 +1,16 @@
 ﻿import { Route, Routes } from "react-router-dom"
 import { RoutList } from "./RoutList"
 import { Suspense } from "react"
+import { MainPage } from "Pages/MainPage"
 
 export const Routs = () => {
     return (<>
-    <Routes>
-        <Suspense fallback = {<div>Loading...</div>}>
+    <Suspense fallback = {<div>Loading...</div>}>
+     <Routes>
          {
-            Object.values(RoutList).map(({path, element}) => <Route path= {path} element = {element}/>)
+            Object.values(RoutList).map(({path, element}) => <Route key = {path} path= {path} element = {element}/>)
          }
-        </Suspense>
-    </Routes>
+     </Routes>
+    </Suspense>
     </>)
 }

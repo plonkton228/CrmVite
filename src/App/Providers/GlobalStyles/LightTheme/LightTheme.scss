@@ -1,0 +1,8 @@
+﻿// Светлая тема
+$background-color-main: #f4f5fa;
+$background-color-add: #fff;
+
+
+.app.light {
+    background-color: var($background-color-main);
+}

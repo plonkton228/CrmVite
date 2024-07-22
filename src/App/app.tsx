@@ -1,11 +1,21 @@
 ﻿import React from 'react'
-import cls from './app.module.scss'
+import './Providers/GlobalStyles/Global.scss'
 import { BrowserRouter } from 'react-router-dom'
 import { Routs } from './Providers/Routing/Routs'
+import { RoutsPaths } from './Providers/Routing/RoutList'
+import { ThemeProvider } from 'Share/lib/ThemeContext/ui/ThemeProvider'
+import { Navigation } from 'Widgets/Navigation/ui/Navigation'
 export const App = () => {
     return (<>
-    <BrowserRouter>
-      <Routs/>
-    </BrowserRouter>
+    
+    <ThemeProvider>
+     <BrowserRouter>
+      <Navigation path={{ main: RoutsPaths.main ,about: RoutsPaths.about}}/>
+        <Routs/>
+     </BrowserRouter>
+    </ThemeProvider>
+    
+        
+  
     </>)
 }

@@ -1,6 +1,12 @@
-﻿ const MainPage = () => {
+﻿import { useContext } from "react"
+import { ThemeContext } from "Share/lib/ThemeContext/lib/ThemeContext"
+
+
+ const MainPage = () => {
+    const {theme, toggleTheme} = useContext(ThemeContext)
      return (<>
-      <h1>MainPage</h1>
+          <div className= {`app ${theme}`}>тест</div>
+      <button onClick={() => toggleTheme(theme)}></button>
      </>)
 }
 
