@@ -1,6 +1,15 @@
 ﻿// Темная тема
 $background-color-main: #262d47;
 $background-color-add: #333744;
-.app.dark {
+
+// Основная тема для фона
+.main.dark {
  background-color: $background-color-main;
 }
+
+// Тема для навигации
+.dark {
+    background-color: $background-color-add ;
+}
+
+

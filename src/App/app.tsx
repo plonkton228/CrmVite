@@ -7,15 +7,13 @@ import { ThemeProvider } from 'Share/lib/ThemeContext/ui/ThemeProvider'
 import { Navigation } from 'Widgets/Navigation/ui/Navigation'
 export const App = () => {
     return (<>
-    
     <ThemeProvider>
      <BrowserRouter>
+     <div className='main'>
       <Navigation path={{ main: RoutsPaths.main ,about: RoutsPaths.about}}/>
-        <Routs/>
+      <Routs/>
+     </div>
      </BrowserRouter>
     </ThemeProvider>
-    
-        
-  
     </>)
 }

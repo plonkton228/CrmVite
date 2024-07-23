@@ -2,7 +2,13 @@
 $background-color-main: #f4f5fa;
 $background-color-add: #fff;
 
-
-.app.light {
+ // Основная тема для фона
+.main.light {
     background-color: var($background-color-main);
+}
+
+
+// Тема для навигации
+.light {
+    background-color: var($background-color-add);
 }

@@ -1,0 +1,20 @@
+﻿.Link {
+    display: block;
+    outline: none;
+    text-decoration: none;
+    color: white 
+}
+
+
+.navigationLink {
+    padding: 20px;
+    color: #dcdcdc;
+    background-color: transparent;
+    transition: all 0.3s linear;
+}
+
+.navigationLink:hover {
+    transition: all 0.3s linear;
+    background-color: rgb(250, 250, 250);
+    color: gray
+}
